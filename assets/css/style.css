@@ -19,3 +19,34 @@
     padding: 3%;
     max-width: 50%;
 }
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: #1a1a1a;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    padding: 10px;
+}
+
+.navbar .navbar_logo{
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #202020;
+    color: darkorchid;
+}
+
+.navbar .menu_navbar{
+    color: steelblue;
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #282828;
+    display: flex   ;
+    padding: 10px;
+}
+
+.navbar p{
+    margin: 0 10px;
+}
